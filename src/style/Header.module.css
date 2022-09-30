@@ -1,0 +1,47 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    grid-column-gap: 10px;
+    grid-template-areas:
+        "logoImg areaSerach additionalSetings";
+}
+
+.wrapLogo {
+    grid-area: logoImg;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+}
+
+.area_serach {
+    grid-area: areaSerach;
+    background-color: aqua;
+}
+
+.other_set {
+    grid-area: additionalSetings;
+    background-color: blueviolet;
+}
+
+
+
+
+  
