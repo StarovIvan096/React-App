@@ -1,6 +1,6 @@
-import Footer from "./Footer";
-import BodyContent from "./Profile";
-import SettingsProfile from "./ProfileSections";
+import Footer from "./Footer"
+import BodyContent from "./Profile"
+import SettingsProfile from "./ProfileSections"
 
 const WrappContentSite = ()=> {
     return(
