@@ -1,0 +1,20 @@
+.sent_comment {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.sender_photo {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 38, 0);
+    border-radius: 50%;
+}
+
+.data_sender {
+    margin-left: 20px;
+}
+
+.name_sender {
+    font-size: 18px;
+    font-weight: 600;
+}

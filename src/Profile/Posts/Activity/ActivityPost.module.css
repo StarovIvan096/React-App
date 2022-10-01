@@ -1,0 +1,19 @@
+
+.act_rec {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 5px 0;
+}
+
+.wrp_act_rec{
+    margin-right: 50px;
+}
+
+.wrp_act_rec:last-child {
+    margin-right: 0;
+}
+
+.btn_act_rec {
+    width: 25px;
+}
+

@@ -1,0 +1,33 @@
+.comment {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    grid-template-areas:
+    "img text btn"
+}
+
+.my_comment {
+    height: 60px;
+    width: 100%;
+    background-color: inherit;
+    border: 1px solid rgba(128, 128, 128, 0.575);
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    grid-area: text;
+}
+
+.user_photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: purple;
+    grid-area: img;
+    align-self: center;
+}
+
+.btn_send {
+    height: 35px;
+    grid-area: btn;
+    align-self: end;
+    margin-left: 10px;
+}
