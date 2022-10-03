@@ -2,16 +2,14 @@
   text-align: center;
 }
 
-.wrap-profile-site{
+.all-write{
   width: 1200px;
   height: 100vh;
   margin: 60px auto 0 auto;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 60px;
   grid-template-areas:
   "settings profile"
-  "footer footer"
 }
 
 .settings-profile{
@@ -19,12 +17,7 @@
   grid-area: settings;
 }
 
-.profile-content{
+.act_rec{
   background-color: rgba(76, 79, 255, 0.45);
   grid-area: profile;
-}
-
-.footer-site{
-  background-color: rgb(125, 125, 125);
-  grid-area: footer;
 }

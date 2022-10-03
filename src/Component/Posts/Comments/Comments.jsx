@@ -1,4 +1,4 @@
-import comm from '../Profile.module.css';
+import comm from './Comments.module.css';
 import SenderComment from './SenderComment/SenderComment';
 import MyComment from './MyComment/MyComment';
 const CommentUnderPost = ()=> {

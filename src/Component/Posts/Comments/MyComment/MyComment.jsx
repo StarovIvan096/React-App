@@ -5,7 +5,7 @@ const MyComment = ()=> {
         <div className={myC.comment}>
             <div className={myC.user_photo}></div>
             <input className={myC.my_comment} type="text" placeholder="Ваш комментарий..."></input>
-            <img className={myC.btn_send} src={sendComment}></img>
+            <img className={myC.btn_send} src={sendComment} alt="/"></img>
         </div>
     )
 }
